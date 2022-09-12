@@ -1,6 +1,3 @@
-from xml.etree.ElementTree import Comment
-
-
 print("Hello Sayantan!")
 
 # this is single line comment
