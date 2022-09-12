@@ -19,6 +19,8 @@ a *= 12     # Shortcut of a = a*12
 print("Shortcut process of a=a*12 and result is: ", a)
 a /= 12     # Shortcut of a = a/12
 print("Shortcut process of a=a/12 and result is: ", a)
+a **= 12    # Shortcut of a = a**12
+print("Shortcut process of a=a**12 and result is: ", a)
 
 
 # Comparison Operators
@@ -42,3 +44,10 @@ bool2 = False
 print("The value of bool1 and bool2 is", (bool1 and bool2))
 print("The value of bool1 or bool2 is", (bool1 or bool2))
 print("The value of not bool2 is", (not bool2))
+
+
+# This is in membership operator
+
+ab = ['Ram', 'Sham', 'Shayam']
+print("Sayantan" in ab)
+print("Sayantan" not in ab)

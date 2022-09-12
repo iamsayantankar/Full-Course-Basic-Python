@@ -22,19 +22,12 @@ print(type(e))
 print(type(f))
 
 
-'''
-Hey guys, how are you?
-'''
-# This is also a comment just like the above line
+# Type Casting
+g = str(a)      # Other to string
+print(type(a))
 
-print('''Twinkle, twinkle, little star,
-How I wonder what you are!
-Up above the world so high,
-Like a diamond in the sky.''')
+g = int(c)      # Other to int
+print(type(a))
 
-
-
-
-
-print("My name is:", end=" ")
-print("Sayantan Kar")
+g = float(a)    # Other to float
+print(type(a))
